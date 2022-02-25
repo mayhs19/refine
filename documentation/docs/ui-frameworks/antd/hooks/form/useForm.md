@@ -165,7 +165,8 @@ const { clone } = useNavigation();
 | queryResult     | Result of the query of a record                         | [`QueryObserverResult<T>`](https://react-query.tanstack.com/reference/useQuery)  |
 | mutationResult  | Result of the mutation triggered by submitting the form | [`UseMutationResult<T>`](https://react-query.tanstack.com/reference/useMutation) |
 | formLoading     | Loading state of form request                           | `boolean`                                                                        |
-
+| id          | Record id for edit action                               | `"string"` \| `"number"`                                                         |     |
+| setId       | `id` setter                                         | `Dispatch<SetStateAction<` `string` \| `number` \| `undefined>>`                 |
 
 ### Type Parameters
 
